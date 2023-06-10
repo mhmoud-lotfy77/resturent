@@ -1,0 +1,93 @@
+@import url(all.css);
+
+/*******  ******/
+.location iframe{
+    padding-bottom: 50px;
+    height: 620px;
+    width: 100%;
+}
+/*  */
+.form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form .cart .item {
+  margin-bottom: 25px;
+  position: relative;
+  text-align: left;
+}
+.form .cart .item .text {
+  text-align: left !important;
+}
+.form .cart .item .text .text {
+  margin-right: 20px;
+}
+.form .cart .item .text h4 {
+    font-size: 1.3em;
+  margin-bottom: 20px;
+}
+.form .cart .item .text h5 {
+  margin-bottom: 0;
+  font-size: 1em;
+  color: #2a2a2a;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.form .cart .item .text p {
+  color: #8a8a8a;
+  font-size: 1em;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 0;
+  font-style: normal;
+}
+.form .comment {
+  border-top: 0 !important;
+}
+.form .comment h2 {
+  color: #ff8c00;
+  font-weight: 500;
+  margin-bottom: 34px;
+  font-size: 2.3em;
+}
+.form .comment form input {
+  background-color: #ffa94018;
+  border-bottom: 1px solid #e4e4e4 !important;
+  box-shadow: #2a2a2a4b 1px 3px 5px;
+  width: 100%;
+  font-size: 1em;
+  color: #868a8e;
+  border: none;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.form .comment form textarea {
+  background-color: #ffe3c046;
+    box-shadow: #2a2a2a4b 1px 3px 5px;
+  border-bottom: 1px solid #e4e4e4 !important;
+  width: 100%;
+  font-size: 1em;
+  color: #868a8e;
+  border: none;
+  height: 85px;
+  resize: none;
+  margin-bottom: 40px;
+}
+.form .comment form button {
+  font-size: 1em;
+  font-weight: 500;
+  display: inline-block;
+  border: none;
+  background: #ff8c00;
+    box-shadow: #2a2a2a4b 1px 3px 5px;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 3px;
+  position: relative;
+}

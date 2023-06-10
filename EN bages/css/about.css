@@ -1,0 +1,192 @@
+@import url(all.css);
+/*  */
+/*  */
+/************** testimonials section *************/
+.testimonials .container .all{
+  flex-direction: row-reverse;
+}
+.testimonials .monialImg video{
+  width: 100%;
+  height: 500px;
+}
+.testimonials .monialText {
+  padding-left: 70px;
+  padding-top: 50px;
+  position: relative;
+}
+.testimonials .monialText .monialTitle {
+  text-align: left;
+  margin-bottom: 20px;
+  position: absolute;
+  right: 0;
+  left: 6rem;
+  bottom: 0;
+  top: 0;
+}
+.testimonials .monialText .monialTitle h5 {
+  color: #eeb63d;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+.testimonials .monialText .monialTitle h2 {
+  font-size: 2.5em;
+  color: #2b2b2e;
+}
+.testimonials .monialText .slid {
+  position: absolute;
+  top: 7rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.testimonials .monialText .slid .carousel-item {
+  height: 20rem;
+  text-align: left;
+}
+.testimonials .monialText .slid .carousel-caption {
+  text-align: left;
+}
+.testimonials .monialText .slid h5 {
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+.testimonials .monialText .slid .rating {
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+.testimonials .monialText .slid  .rating i {
+  font-size: .9em;
+  color: #eeb63d;
+  margin-left: -4px;
+}
+.testimonials .monialText .slid  p {
+  margin-bottom: 28px;
+}
+.testimonials .monialText .slid .cart .autherTitle h5 {
+  color: #eeb63d;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+.testimonials .monialText .slid .cart .autherTitle span {
+  font-size: 1em;
+  color: #868a8e;
+}
+.testimonials .monialText .slid .cart .social {
+  text-align: right;
+  padding-top: 10px;
+}
+.testimonials .monialText .slid .cart .social a {
+  font-size: .9em;
+  color: #868a8e;
+  margin-right: 28px;
+}
+.testimonials .monialText .slid .cart .social a i:hover{
+  color: #eeb63d;
+}
+/************** end testimonials section *************/
+/*  */
+/************ description ************/
+.description .container{
+  padding: 30px 0;
+  background-color: #3b3a3aaa;
+}
+.description .container .row{
+  justify-content: space-around;
+}
+.description .container .row .descriptionText p{
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.8;
+  word-spacing: 2px;
+}
+.description .container .row .descriptionText .text-center{
+  font-size: 2em;
+  color: #fcb252;
+  text-align: center;
+}
+/************ end description ************/
+/*  */
+
+/* .about .container .row {
+  padding: 50px 0;
+  justify-content: space-around;
+}
+.about .container .row .aboutVideo{
+}
+.about .container .row .aboutVideo video {
+  width: 100%;
+    border-radius: 20px;
+} */
+
+
+/* lastLine */
+.lastLine {
+    padding: 80px 0;
+    background-color: #9292923b;
+}
+
+.lastLine .container .lastLineTitle{
+    background-color: #878787;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+.lastLine .container .lastLineTitle h2{
+  color: #eeb63d;
+}
+.lastLine .card {
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    border-radius: 0 0 30px 0px;
+}
+
+.card .lastLineImg {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #406464;
+}
+.card .lastLineImg img {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.lastLine .container .row .lastLineText{
+    text-align: center;
+    background-color: #262626a9;
+    border-radius: 0 0 30px 0;
+}
+.lastLine .container .row .lastLineText h5{
+    color: #eeb63d;
+    padding-top: 10px;
+}
+.lastLine .container .row .lastLineText p{
+    color: #ffffff;
+    padding: 10px 0;
+}
+.card .lastLineImg .btnAdd {
+    background-color: #40566479;
+    padding: 15px 30px;
+    color: #eeb63d;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    bottom: -63px;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+    opacity: 0;
+}
+.card:hover .lastLineImg .btnAdd {
+    bottom: 0;
+    opacity: 1;
+}
+.card:hover .lastLineImg img {
+  transform: scale(1);
+}

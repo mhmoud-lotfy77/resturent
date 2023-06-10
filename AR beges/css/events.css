@@ -1,0 +1,196 @@
+@import url(all.css);
+/*******  ******/
+
+/*  */
+.servicesTop{
+    background-color: #27445090;
+}
+/* .servicesTop .container .servicesTopText{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+} */
+.servicesTop .container .servicesTopText h1{
+    color: #fff;
+    font-size: 2em;
+    text-align: end;
+}
+
+/*  */
+
+.bodyBg{
+    /* background-image: url(../imgs/services/top/bg.jpg); */
+    background-position: center;
+}
+.bodyBg .container .bodyBgImg{
+    background-color: #fff;
+}
+.bodyBg .container .bodyBgImg{
+    margin: 15px;
+    height: 90px;
+}
+.bodyBg .container .bodyBgImg img{
+    height: 100%;
+    transition: all .5s;
+}
+.bodyBg .container .bodyBgImg:hover img{
+    scale: 1.2;
+}
+
+/*  */
+/******* event ********/
+.event {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.event .container .row{
+  flex-direction: row-reverse;
+}
+.event .eventItemLg {
+  margin-bottom: 68px;
+}
+.event .eventItem {
+  margin-bottom: 70px;
+}
+.event .eventItemLg .eventItemLgPic {
+  position: relative;
+}
+.event .eventItemLg .eventItemLgPic img {
+  min-width: 100%;
+    width: 15%;
+}
+.event .tag {
+  font-size: 14px;
+  color: #ffffff;
+  background: #e9ad28;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 4px 16px 2px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.event .eventItemLg .text {
+  padding-top: 25px;
+}
+.event .eventItemLg .text p {
+  margin-bottom: 12px;
+}
+.event .eventItemLg .text p i {
+  margin-right: 2px;
+}
+.event .eventItemLg .text h4 a {
+  font-size: 26px;
+  color: #171717;
+  font-weight: 500;
+}
+.event .eventItem .pic {
+  position: relative;
+}
+.event .eventItem .pic img {
+  min-width: 100%;
+}
+.event .eventItem .eventItemtext {
+  padding-top: 28px;
+}
+.event .eventItem .eventItemtext p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.event .eventItem .eventItemtext p i {
+  margin-right: 2px;
+}
+.event .eventItem .eventItemtext h5 a {
+  font-size: 22px;
+  color: #171717;
+  font-weight: 500;
+}
+.event .eventNav {
+  text-align: center;
+}
+.event .eventNav a {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 16px 8px;
+  color: #777c81;
+}
+.event .eventNav a span {
+  font-size: 16px;
+  top: 3px;
+  margin-left: 3px;
+}
+.event .eventSidebar {
+  padding-right: 40px;
+  text-align: end;
+}
+.event .eventSidebar h4 {
+  color: #1d1c1c;
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+.event .eventSidebar .sidbar {
+  margin-bottom: 60px;
+}
+.event .eventSidebar .sidbar .recentItem {
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+}
+
+.event .eventSidebar .sidbar .recentItem .img {
+  margin-left: 20px;
+    width: 15%;
+}
+.event .eventSidebar .sidbar .recentItem .recentText h6 {
+  color: #1d1c1c;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.event .eventSidebar .sidbar .recentItem .recentText .time {
+  font-size: 12px;
+  color: #9da1a4;
+}
+.event .eventSidebar .sidbar .recentItem .recentText .time i {
+  margin-right: 2px;
+}
+.event .eventSidebar .categories {
+  margin-bottom: 52px;
+}
+.event .eventSidebar .categories ul li {
+  position: relative;
+  padding-left: 18px;
+}
+.event .eventSidebar .categories ul li a {
+  font-size: .85em;
+  color: #1d1c1c;
+  line-height: 36px;
+  transition: all, 0.3s;
+}
+.event .eventSidebar .categories ul li:hover a {
+  color: #e9ad28;
+}
+.event .eventSidebar .comment {
+  margin-bottom: 50px;
+}
+.event .eventSidebar .comment p {
+    font-size: .9em;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.event .eventSidebar .comment span {
+    font-size: .85em;
+  display: block;
+  color: #1d1c1c;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+.event .eventSidebar .tags a {
+  display: inline-block;
+  font-size: 14px;
+  color: #777c81;
+  padding: 8px 25px 6px 20px;
+}
+/******************** end event  *****************/

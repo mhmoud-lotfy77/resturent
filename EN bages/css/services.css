@@ -1,0 +1,135 @@
+@import url(all.css);
+/*******  ******/
+
+.servicesBackG{
+    background-image: url(../../imgs/services/top/about_hero.png.webp);
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
+.servicesBackG .container{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;}
+.servicesBackG .container .servicesBackG-Text p{
+color: #ff8c00;
+font-size: 2em;
+font-weight: 500;
+line-height: 1.8;
+}
+.servicesBackG .container .servicesBackG-Text p span{
+    color: #27445090;
+}
+.services .services-text span{
+    color: #ff8c00;
+}
+/*  */
+
+.services .container .text-center  p{
+    color: #ff8c00;
+    margin: 0;
+}
+/*  */
+.servicesTop{
+    background-color: #27445090;
+}
+/* .servicesTop .container .servicesTopText{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+} */
+.servicesTop .container .servicesTopText h1{
+    color: #fff;
+    font-size: 2em;
+}
+/*  */
+/* services */
+.services{
+    background-color: #8080802d;
+    padding: 50px 0;
+}
+.services .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.services .row .services-text{
+    line-height: 1.8;
+}
+/* end services */
+/*  */
+/************** carts section *************/
+.carts{
+  padding: 40px;
+    background-image: url(../../imgs/BG/4.jpeg);
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carts .container .row{
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.carts .container .row .lin1 .cartsText{
+    background-color: rgba(1, 16, 68, 0.215);
+  padding: 10px 20px;
+  border-radius: 0 0 50px 50px;
+}
+.carts .container .row .lin1 .cartsText h4{
+  letter-spacing: 2px;
+  font-size: 1.8em;
+  text-align: center;
+}
+.carts .container .row .lin1 .cartsText p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+/*  */
+.carts .container .row .line2  .cartsText{
+    background-color: rgba(1, 16, 68, 0.215);
+  padding: 10px 20px;
+  border-radius: 0 0 50px 50px;
+}
+.carts .container .row .line2 .cartsText h4{
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.carts .container .row .line2 .cartsText p{
+  font-size: .9rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+/*  */
+.carts .container .row .line3  .cartsText{
+    background-color: rgba(1, 16, 68, 0.215);
+  padding: 10px 20px;
+  border-radius: 0 0 50px 50px;
+}
+.carts .container .row .line3 .cartsText h4{
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.carts .container .row .line3 .cartsText p{
+  font-size: .9rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.carts .container .row .cartsText p{
+    transition: .5s;
+    text-align: center;
+}
+.carts .container .row .cartsText:hover p{
+    font-size: 1.2em;
+}
+/************** end carts section *************/
+
+

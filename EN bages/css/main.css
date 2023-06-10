@@ -1,0 +1,483 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+/******  ******/
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+html::-webkit-scrollbar {
+  width: 20px;
+  height: 10px;
+  background-color: #274450ae;
+}
+html::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #afafaf;
+  border-radius: 5px;
+  border: #406464 5px double;
+}
+/*  */
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.m-b6 {
+  margin-bottom: 6rem;
+}
+.m-b8 {
+  margin-bottom: 8rem;
+}
+.p-tb6 {
+  padding: 6rem 0;
+}
+.p-tb3 {
+  padding: 2rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff8c00;
+  font-family: BarlowMedium;
+}
+p {
+  font-family: BarlowMedium;
+}
+/*******  ******/
+/*  */
+/* navbar */
+.navbar {
+  background-color: #274450ae;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+}
+.navbar .collapse ul li {
+  margin: 0 10px;
+}
+.navbar .collapse ul li .active {
+  color: #ff9100;
+  font-size: 1.2rem;
+}
+.navbar .collapse ul li a {
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+.navbar .collapse ul li:hover a {
+  color: #ff9100;
+}
+.navbar .container-fluid .icon ul {
+  align-items: flex-end;
+}
+
+.navbar .container-fluid .icon ul li a i {
+  font-size: 1.2em;
+}
+#langButton {
+  padding: 0px 10px;
+  color: #fff;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+#langButton:hover {
+  background-color: #ff9100;
+}
+/****** end navbar *******/
+/*  */
+/****** video-section *******/
+.video-section {
+  height: 100vh;
+  position: relative;
+}
+.video-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.video-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #27445090;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.video-section .overlay .row {
+  justify-content: center;
+}
+.video-section .overlay .text {
+  position: absolute;
+  top: 40%;
+  width: 70%;
+}
+.video-section .overlay h1 {
+  color: #ff8c00;
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+  line-height: 1.5;
+}
+.video-section .overlay a {
+  background-color: #27445090;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: none;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+.video-section .overlay a:hover {
+  background-color: #ff8c00;
+  color: #fdddb3;
+}
+/*  */
+.video-section .overlay .container h1::after {
+  content: "Professional advice in the field of food, beverages and restaurants";
+  animation-name: name;
+  animation-duration: 7s;
+  animation-iteration-count: once;
+}
+
+@keyframes name {
+  0% {
+    content: "Professional";
+  }
+  5% {
+    content: "Professional advice";
+  }
+  10% {
+    content: "Professional advice in";
+  }
+  15% {
+    content: "Professional advice in the";
+  }
+  20% {
+    content: "Professional advice in the field";
+  }
+  25% {
+    content: "Professional advice in the field of";
+  }
+  30% {
+    content: "Professional advice in the field of food";
+  }
+  35% {
+    content: "Professional advice in the field of food, beverages";
+  }
+  40% {
+    content: "Professional advice in the field of food, beverages and";
+  }
+  45% {
+    content: "Professional advice in the field of food, beverages and restaurants";
+  }
+  50% {
+    content: "Professional advice in the field of food, beverages and restaurants";
+  }
+
+  55% {
+    content: "Professional advice in the field of food, beverages and";
+  }
+  60% {
+    content: "Professional advice in the field of food, beverages";
+  }
+  65% {
+    content: "Professional advice in the field of food,";
+  }
+  70% {
+    content: "Professional advice in the field of";
+  }
+  75% {
+    content: "Professional advice in the field";
+  }
+  80% {
+    content: "Professional advice in the ";
+  }
+  85% {
+    content: "Professional advice in ";
+  }
+  90% {
+    content: "Professional advice in ";
+  }
+  95% {
+    content: "Professional advice ";
+  }
+  100% {
+    content: "Professional";
+  }
+}
+/*  */
+/****** endvideo-section *******/
+/*  */
+/******* slider ********/
+/* .slider .carousel-inner .carousel-item{
+    transition:all .5s ;
+}
+.slider .carousel-inner img{
+    max-height: 750px !important;
+}
+.slider .carousel-inner h3{
+    color: #0a2d3c;
+    font-size: 3rem;
+}
+.slider .carousel-inner p{
+    color: #995400;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.carousel-control-prev-icon{
+    background-color: #0a2d3c;
+}
+.carousel-control-next-icon{
+    background-color: #0a2d3c;
+}
+.slider .carousel-inner .carousel-caption{
+    background-color: #ffffffae;
+} */
+/******* end slider ********/
+/*  */
+/****** theBest ********/
+.theBest .container .row {
+  align-items: center;
+}
+.theBest .theBest-text {
+  padding: 0 20px;
+}
+.theBest .theBest-text p {
+  color: #808080;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 2.5;
+}
+/****** end theBest ******/
+@media (max-width: 767px) {
+  .video-section .overlay h1 {
+    font-size: 1rem;
+  }
+  .theBest .theBest-text p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 3;
+  }
+  .video-section .overlay button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+/*  */
+/*******  what ********/
+.what {
+  background-color: #23586e;
+}
+.what .whatTitle {
+  padding-bottom: 50px;
+}
+.what .whatTitle h3 {
+  font-size: 2em;
+  letter-spacing: 4px;
+}
+.what .container .row .cart {
+  text-align: center;
+}
+.what .container .row .cart .whatImg {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 150px;
+}
+.what .container .row .cart .whatImg img {
+  height: 100%;
+  scale: 1.15;
+  transition: all 0.5s;
+}
+.what .container .row .cart:hover .whatImg img {
+  scale: 1;
+}
+.what .container .row .cart .whatText {
+  margin-top: 15px;
+}
+.what .container .row .cart .whatText h4 {
+  padding: 10px 0;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.what .container .row .cart .whatText p {
+  padding: 2px 5px;
+  font-size: 1em;
+  font-weight: 500;
+  color: #ffffff;
+}
+/*******  end what ********/
+/*  */
+/*******  who ********/
+.who .container .row .whoUp {
+  padding: 0 10px;
+  flex-direction: column;
+}
+.who .container .row .whoUp .whoUpText p {
+  text-align: center;
+  font-size: 1.2em;
+}
+.who .container .row .whoRight {
+  padding: 0 10px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.who .container .row .whoRight .whoRihtText p {
+  text-align: center;
+  font-size: 1.2em;
+}
+.who .container .row img {
+  transition: all 1s;
+}
+.who .container .row img:hover {
+  scale: 1.1;
+}
+/*******  end who ********/
+/*  */
+/*******  logoLine ********/
+
+.logoLine .container .logoLineImg {
+  box-shadow: #2a2a2a4b 10px 3px 20px;
+  background-color: #a4a4a433;
+  border-radius: 100px;
+}
+.logoLine .container .logoLineImg img {
+  transition: all 0.5s;
+}
+.logoLine .container .logoLineImg img:hover {
+  scale: 0.9;
+}
+.logoLine .container .logoLineTitle .lineTitle {
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.logoLine .container .logoLineTitle .lineTitle h4 {
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+.logoLine .container .logoLineTitle .lineTitle a {
+  font-size: 1.2em;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #ff8c00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.logoLine .container .logoLineTitle .lineTitle a:hover {
+  background-color: transparent;
+  border: 2px solid #ff8c00;
+  color: #ff8c00;
+}
+/*******  end logoLine ********/
+/*  */
+/*******   footer ********/
+/***   brands ****/
+.brands .container .row .row .brandsTitle h5 {
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+.brands .container .row .rightBrand {
+  justify-content: end;
+}
+.brands .container .row img {
+  box-shadow: #2a2a2a4b 10px 3px 20px;
+  border-radius: 50px;
+  transition: all 1s;
+}
+.brands .container .row img:hover {
+  scale: 1.2;
+}
+/***   end brands *****/
+/*  */
+/***** contactUs ******/
+.contactUs {
+  background-color: #c2bebeb5;
+}
+.contactUs .container .row .center {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.contactUs .contactUsText h6 {
+  font-size: 1.4em;
+}
+.contactUs .contactUsText ul li a {
+  color: #000000;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.contactUs .contactUsText ul li a:hover {
+  color: #ff9100;
+}
+.contactUs .container .icon .navbar-nav {
+  flex-direction: row;
+  justify-content: end;
+}
+.contactUs .container .icon .navbar-nav li a i {
+  padding: 0 20px;
+  color: #fff;
+  font-size: 2.5rem;
+  transition: all 0.5s;
+}
+.contactUs .container .icon .navbar-nav li:hover a i {
+  color: #ff9100;
+}
+
+/**** end contactUs ****/
+/*  */
+/***** CopyRight ******/
+.CopyRight {
+  padding: 7px 0;
+  background-color: #0a2d3cb7;
+  text-align: center;
+}
+.CopyRight p {
+  margin: 0;
+  color: #fff;
+}
+/***** end CopyRight ******/
+/*******  end footer ********/
+
+/* responsef */
+@media (max-width: 991px) {
+  .video-section .overlay h1 {
+    color: #ff8c00;
+    font-size: 2rem;
+  }
+  .video-section .overlay a {
+    background-color: #27445090;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: BarlowBlack ;
+    src: url(../fonts/BarlowCondensed-Black.ttf);
+}
+@font-face {
+    font-family: BarlowBold ;
+    src: url(../fonts/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: BarlowMedium ;
+    src: url(../fonts/BarlowCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: BarlowRegular ;
+    src: url(../fonts/BarlowCondensed-Regular.ttf);
+}

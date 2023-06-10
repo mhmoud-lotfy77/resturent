@@ -1,0 +1,32 @@
+@import url(all.css);
+/*  */
+.cartsBody .container .row{
+  flex-direction: row-reverse;
+}
+.projects-clients {
+  padding: 30px 0;
+}
+
+.projects-clients h2 {
+  margin-bottom: 30px;
+}
+
+.projects-clients .lead {
+  margin-bottom: 60px;
+}
+
+.projects-clients .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.projects-clients .card-title {
+  margin-bottom: 20px;
+}
+.card-body{
+  text-align: right;
+}
+.card-footer{
+  text-align: right;
+}
+/*  */
